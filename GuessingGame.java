@@ -24,7 +24,7 @@ public class GuessingGame {
                 colours=colours.substring(0,randomNum)+colours.substring(randomNum+1,colours.length());
                 ans = ans + guessColours;
             }
-            System.out.println("The Random generated 4 colours are : " + ans);// if need to reveal ans for testing purpose 
+            //System.out.println("The Random generated 4 colours are : " + ans);// if need to reveal ans for testing purpose 
             int i =1;
             while(i<9)
             {   
